@@ -17,6 +17,6 @@
  {
    "repository":  "C-RoM-KK/kernel_asus_flo",
    "target_path": "kernel/asus/flo",
-   "branch":      "kk4.4"
+   "branch":      "kitkat"
  }
 ]
