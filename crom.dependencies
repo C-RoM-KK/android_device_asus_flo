@@ -15,7 +15,7 @@
    "branch":      "kk4.4"
  },
  {
-   "repository":  "SlimRoms/kernel_asus_flo",
+   "repository":  "C-RoM-KK/kernel_asus_flo",
    "target_path": "kernel/asus/flo",
    "branch":      "kk4.4"
  }
