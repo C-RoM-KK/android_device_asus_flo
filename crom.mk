@@ -18,6 +18,9 @@ PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
 
+PRODUCT_COPY_FILES += \
+    vendor/crom/prebuilt/common/media/tablet/bootanimation.zip:system/media/bootanimation.zip
+
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 #Set build fingerprint / ID / Product Name ect.
