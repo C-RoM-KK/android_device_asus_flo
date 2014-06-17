@@ -8,6 +8,9 @@ PRODUCT_RELEASE_NAME := flo
 # Inherit some common stuff.
 $(call inherit-product, vendor/crom/config/common_full_tablet_wifionly.mk)
 
+# Enhanced NFC
+$(call inherit-product, vendor/crom/config/nfc_enhanced.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/asus/flo/full_flo.mk)
 
@@ -17,9 +20,6 @@ PRODUCT_NAME := crom_flo
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
-
-PRODUCT_COPY_FILES += \
-    vendor/crom/prebuilt/common/media/tablet/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
